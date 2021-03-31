@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jfbzQlJ20ZA48jzmQ5xGgqrmO5jrr7LZqQ60vljJXHv01Kg+vRZtH8RCUoYt03x5HDi7yycrjk85oK/RCPlYtg==",
+  "dgSpecHash": "hD67XGJjVGlDbYoAIeTlzFdrRm28so0yjuoTd7jqXYUec3xUQcDYTjA28yx7rm5npOo0d9brZmo2H8mO9DzXqQ==",
   "success": true,
-  "projectFilePath": "D:\\Study\\UnitTest\\CalculatorVS\\CalculatorVS\\CalculatorVS.csproj",
+  "projectFilePath": "D:\\Study\\Git\\CalculatorVS\\CalculatorVS\\CalculatorVS.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

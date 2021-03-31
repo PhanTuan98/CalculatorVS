@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Study\\UnitTest\\CalculatorVS\\NUnit.Test\\NUnit.Test.csproj": {}
+    "D:\\Study\\Git\\CalculatorVS\\NUnit.Test\\NUnit.Test.csproj": {}
   },
   "projects": {
-    "D:\\Study\\UnitTest\\CalculatorVS\\CalculatorVS\\CalculatorVS.csproj": {
+    "D:\\Study\\Git\\CalculatorVS\\CalculatorVS\\CalculatorVS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\UnitTest\\CalculatorVS\\CalculatorVS\\CalculatorVS.csproj",
+        "projectUniqueName": "D:\\Study\\Git\\CalculatorVS\\CalculatorVS\\CalculatorVS.csproj",
         "projectName": "CalculatorVS",
-        "projectPath": "D:\\Study\\UnitTest\\CalculatorVS\\CalculatorVS\\CalculatorVS.csproj",
+        "projectPath": "D:\\Study\\Git\\CalculatorVS\\CalculatorVS\\CalculatorVS.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\UnitTest\\CalculatorVS\\CalculatorVS\\obj\\",
+        "outputPath": "D:\\Study\\Git\\CalculatorVS\\CalculatorVS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "D:\\Study\\UnitTest\\CalculatorVS\\NUnit.Test\\NUnit.Test.csproj": {
+    "D:\\Study\\Git\\CalculatorVS\\NUnit.Test\\NUnit.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\UnitTest\\CalculatorVS\\NUnit.Test\\NUnit.Test.csproj",
+        "projectUniqueName": "D:\\Study\\Git\\CalculatorVS\\NUnit.Test\\NUnit.Test.csproj",
         "projectName": "NUnit.Test",
-        "projectPath": "D:\\Study\\UnitTest\\CalculatorVS\\NUnit.Test\\NUnit.Test.csproj",
+        "projectPath": "D:\\Study\\Git\\CalculatorVS\\NUnit.Test\\NUnit.Test.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\UnitTest\\CalculatorVS\\NUnit.Test\\obj\\",
+        "outputPath": "D:\\Study\\Git\\CalculatorVS\\NUnit.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Study\\UnitTest\\CalculatorVS\\CalculatorVS\\CalculatorVS.csproj": {
-                "projectPath": "D:\\Study\\UnitTest\\CalculatorVS\\CalculatorVS\\CalculatorVS.csproj"
+              "D:\\Study\\Git\\CalculatorVS\\CalculatorVS\\CalculatorVS.csproj": {
+                "projectPath": "D:\\Study\\Git\\CalculatorVS\\CalculatorVS\\CalculatorVS.csproj"
               }
             }
           }

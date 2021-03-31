@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xoA+JVkspDjWmsDTSTuK+FMdDhE++jnVFmyXZSzwj1/tmpoZC2nmZb3U9Y4A5PQ2pG0yQ+WJfMFZM1m4vbAERQ==",
+  "dgSpecHash": "nkZ6jV/TA3Qu4UWz3WEyVJDhSkCoBNEpSWnoP0xOO6NWt3Nrt6aztkzISBOefQv9bBdJtxDcXm6H+Da/aXMu6Q==",
   "success": true,
-  "projectFilePath": "D:\\Study\\UnitTest\\CalculatorVS\\NUnit.Test\\NUnit.Test.csproj",
+  "projectFilePath": "D:\\Study\\Git\\CalculatorVS\\NUnit.Test\\NUnit.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.codecoverage\\16.9.1\\microsoft.codecoverage.16.9.1.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
