@@ -20,6 +20,7 @@ jobs:
     - store_artifacts:
         path: ./CalculatorVS/bin/Debug/netcoreapp3.1
         destination: BuiltFile
+        
     - run:
         name: "Build Complete"
         command: curl --header "Content-Type:application/json" --data '{"Step":1,"StageCode":2}' -X POST "http://toan0701.ddns.net:9080/Nococid/api/Listeners/CircleCI/job-done?circle_workflow_id=${CIRCLE_WORKFLOW_ID}&circle_job_num=${CIRCLE_BUILD_NUM}"
