@@ -1,0 +1,33 @@
+version: 2.1
+jobs:
+  start-workflow:
+    machine:
+      image: windows-server-2019-vs2019:stable
+    steps:
+    - run:
+        name: "Trigger To Nococid"
+        command: curl --header "Content-Type:application/json" --data '{"SprintId":"4ce069f1-7ce7-4701-21a4-08d8f03ffdbf","BranchId":"e576a1e9-7c5d-41d0-ee1f-08d8f040ef2c"}' -X POST "http://toan0701.ddns.net:9080/Nococid/api/Listeners/CircleCI/start-workflow?circle_workflow_id=${CIRCLE_WORKFLOW_ID}"
+    resource_class: windows.medium
+  build:
+    machine:
+      image: windows-server-2019-vs2019:stable
+    resource_class: windows.medium
+    steps:
+    - checkout
+    - run:
+        name: "Build2"
+        command: dotnet build ./CalculatorVS
+    - store_artifacts:
+        path: ./CalculatorVS/bin/Debug/netcoreapp3.1
+        destination: BuiltFile
+    - run:
+        name: "Build Complete"
+        command: curl --header "Content-Type:application/json" --data '{"Step":1,"StageCode":2}' -X POST "http://toan0701.ddns.net:9080/Nococid/api/Listeners/CircleCI/job-done?circle_workflow_id=${CIRCLE_WORKFLOW_ID}&circle_job_num=${CIRCLE_BUILD_NUM}"
+workflows:
+  version: 2
+  workflow:
+    jobs:
+      - start-workflow
+      - build:
+          requires:
+            - start-workflow
